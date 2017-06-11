@@ -8,5 +8,13 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Apache Cordova Team",
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-plugin-audioinput": "^0.3.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-audioinput": {}
+        }
+    }
 }
